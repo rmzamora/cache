@@ -1,11 +1,16 @@
 {
-    "name": "sonata-project/cache",
+    "name": "rmzamora/cache",
     "description": "Cache library",
-    "keywords": ["cache", "redis", "mongodb", "memcached"],
+    "keywords": ["cache", "redis", "mongodb", "memcached", "rmzamora fork"],
     "homepage": "https://github.com/sonata-project/cache",
     "type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Mell M. Zamora",
+            "email": "me@mellzamora.com",
+            "homepage": "http://mellzamora.com"
+        },
         {
             "name": "Thomas Rabaix",
             "email": "thomas.rabaix@gmail.com",
