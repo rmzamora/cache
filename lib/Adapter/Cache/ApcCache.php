@@ -41,7 +41,7 @@ class ApcCache implements CacheAdapterInterface
      * @param string $prefix  A prefix to avoid clash between instances
      * @param array  $servers An array of servers
      */
-    public function __construct($url, $prefix, array $servers)
+    public function __construct($url, $prefix, $servers = array())
     {
         $this->url     = $url;
         $this->prefix  = $prefix;
