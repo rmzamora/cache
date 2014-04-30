@@ -67,7 +67,7 @@ class MongoCache extends BaseCacheHandler
     private function getCollection()
     {
         if (!$this->collection) {
-            $mongo = new \Mongo(sprintf('mongodb://%s', implode(',', $this->servers)));
+            $mongo = new \MongoClient(sprintf('mongodb://%s', implode(',', $this->servers)));
 
             $this->collection = $mongo
                 ->selectDB($this->databaseName)
